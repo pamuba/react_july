@@ -3,7 +3,7 @@ import './App.css';
 import Counter from './components/Counter';
 import Hello from './components/Hello';
 import Message from './components/Message';
-
+import EventBind from './components/EventBind';
 
 class App extends Component {
   render(){
@@ -20,7 +20,9 @@ class App extends Component {
 
        {/* <Message /> */}
 
-       <Counter></Counter>
+       {/* <Counter></Counter> */}
+
+       <EventBind></EventBind>
       </div>
     );
   }
