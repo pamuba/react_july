@@ -4,6 +4,7 @@ import Counter from './components/Counter';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 class App extends Component {
   render(){
@@ -22,7 +23,8 @@ class App extends Component {
 
        {/* <Counter></Counter> */}
 
-       <EventBind></EventBind>
+       {/* <EventBind></EventBind> */}
+       <ParentComponent></ParentComponent>
       </div>
     );
   }
